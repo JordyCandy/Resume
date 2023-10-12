@@ -1,0 +1,32 @@
+div{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    margin-bottom: 5%;
+}
+img{
+    width: 600px;
+    height:400px;
+    display: block;
+ }
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+hr{
+    border: 3% solid white;
+}
+.d8{
+    margin: 0;
+    padding: 3%;
+}
+ .img1{
+    margin-bottom: 3%;
+ }
+
+ body{
+    background-color: #555555;
+ }
