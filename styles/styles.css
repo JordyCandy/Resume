@@ -4,6 +4,8 @@ body{
     height: 100vh;
     margin: 0;
     color: rgb(63, 63, 63);
+
+    transition: background-color 0.5s ease;
 }
 
 /*header*/
@@ -194,4 +196,28 @@ li{
             font-size: 1em;
         }
     }
+}
+
+
+
+
+
+button{
+    background-color: transparent;
+    border: none;
+}
+
+.fa{
+    width: 130px;
+    height: 130px;
+}
+
+.light-mode{
+    background-color: #f7f7f7;
+    color: #151515;
+}
+
+.dark-mode{
+    background-color: #151515;
+    color: #f7f7f7;
 }
