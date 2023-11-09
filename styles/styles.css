@@ -3,7 +3,8 @@
 }
 
 body{
-    background: #f7f7f7;
+    /* background: #f7f7f7; */
+    background-color: pink;
     font-weight: normal;
     margin: 0 auto;
     position: relative;
