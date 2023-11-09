@@ -1,7 +1,9 @@
 body{
     background-color: #f7f7f7;
+    font-family: 'Roboto', sans-serif;
     height: 100vh;
     margin: 0;
+    color: rgb(63, 63, 63);
 }
 
 /*header*/
@@ -21,15 +23,16 @@ body{
     width: auto;
     height: auto;
     position: relative;
-    font-size: 1em;
+    font-size: 1.2em;
+    letter-spacing: 0.2em;
     text-align: center;
     border-width: 2px;
     border-style: solid;
-    border-image: linear-gradient(to bottom, black, white) 1;
+    border-image: linear-gradient(to bottom, black, rgb(210, 107, 124)) 1;
 }
 
 .d2{
-    background-color: black;
+    background-color: rgb(63, 63, 63);
     text-align: center;
     color: white;
     height: 12%;
@@ -41,6 +44,12 @@ body{
 }
 
 /*mid-section*/
+
+a{
+    text-decoration: none;
+    color: rgb(63, 63, 63);
+}
+
 .mid-section{
     display: flex;
     margin-top: 4%;
@@ -57,7 +66,7 @@ li{
 }
 /*left-side*/
 .left-side{
-    border-right: 1px solid black;
+    border-right: 1px solid rgb(63, 63, 63);
     padding: 2% 5% 5% 5%;
     text-align: right;
 }
@@ -70,8 +79,14 @@ li{
     font-size: 0.8em;
 }
 
+.link{
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
 /*media query to 400*/
 @media (max-width: 400px){
+    /*header*/
     .d1{
         height: 8%;
         font-size: 0.7em;
@@ -84,6 +99,9 @@ li{
         margin-top: 10%;
         font-size: 1em;
     }
+    
+    /*mid-section*/
+
 }
 
 /*media other*/
