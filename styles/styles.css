@@ -198,26 +198,29 @@ li{
     }
 }
 
-
-
-
-
-button{
-    background-color: transparent;
-    border: none;
-}
-
-.fa{
-    width: 130px;
-    height: 130px;
-}
-
-.light-mode{
-    background-color: #f7f7f7;
-    color: #151515;
-}
-
-.dark-mode{
+.dark{
     background-color: #151515;
-    color: #f7f7f7;
+    color: rgb(89, 89, 89);
+}
+
+.btn{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgb(63, 63, 63);
+    border: 1px solid rgb(63, 63, 63);
+    color: rgb(89, 89, 89);
+}
+
+.light{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgb(63, 63, 63);
+    border: 1px solid rgb(63, 63, 63);
+    color: rgb(89, 89, 89);
+}
+
+.color{
+    color: rgb(89, 89, 89);
 }
