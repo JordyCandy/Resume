@@ -44,3 +44,19 @@ animation: spin .5s infinite linear;
         transform: rotate(360deg);
     }
 }
+
+@media (max-width: 768px){
+    .weeh{
+        width: 150px;
+        height: 150px;
+    }
+
+    .all{
+        align-items: center;
+        margin: 0 auto;
+    }
+    h3{
+        font-size: 1em;
+        text-align: center;
+    }
+}

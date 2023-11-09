@@ -84,15 +84,23 @@ li{
     font-weight: bold;
 }
 
-/*media query to 400*/
-@media (max-width: 400px){
+/*media query to 450*/
+@media (max-width: 450px){
+    .container-all{
+        width: 70%;
+        margin: 0 auto;
+    }
+    body{
+        background-color: #151515;
+    }
     /*header*/
     .d1{
         height: 8%;
         font-size: 0.7em;
         justify-content: center;
         align-items: center;
-        margin-bottom: -9%;
+        margin-bottom: -7%;
+        border-image: linear-gradient(to bottom, rgb(63, 63, 63), rgb(210, 107, 124)) 1;
     }
 
     .resume{
@@ -101,17 +109,89 @@ li{
     }
     
     /*mid-section*/
+    .mid-section{
+        flex-direction: column;
+    }
+    .left-side{
+        border: none;
+    }
+    .left-side, .right-side{
+        padding: 3% 0 0 0;
+        text-align: center;
+    }
+    p, li, .name{
+        font-size: 1em;
+    }
 
+    .date{
+        font-size: 0.6em;
+    }
+    ul{
+        padding: 0;
+        list-style: none;
+    }
+    .title{
+        font-size: 1.4em;
+    }
+
+    .sub{
+        font-size: 1em;
+    }
 }
 
 /*media other*/
-@media only screen and (min-width: 400px) and (max-width: 500px) {
-   .d1{
-    font-size: 0.8em;
-    margin-bottom: -5%;
-   }
-   .resume{
-    font-size: 1.2rem;
-    margin-top: 8%;
-   }
-  }
+@media only screen and (min-width: 450px) and (max-width: 768px) {
+    @media (max-width: 450px){
+        .container-all{
+            width: 70%;
+            margin: 0 auto;
+        }
+        body{
+            background-color: #151515;
+        }
+        /*header*/
+        .d1{
+            height: 8%;
+            font-size: 0.7em;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: -6%;
+            border-image: linear-gradient(to bottom, rgb(63, 63, 63), rgb(210, 107, 124)) 1;
+        }
+    
+        .resume{
+            margin-top: 10%;
+            font-size: 1em;
+        }
+        
+        /*mid-section*/
+        .mid-section{
+            flex-direction: column;
+        }
+        .left-side{
+            border: none;
+        }
+        .left-side, .right-side{
+            padding: 3% 0 0 0;
+            text-align: center;
+        }
+        p, li, .name{
+            font-size: 1em;
+        }
+    
+        .date{
+            font-size: 0.6em;
+        }
+        ul{
+            padding: 0;
+            list-style: none;
+        }
+        .title{
+            font-size: 1.4em;
+        }
+    
+        .sub{
+            font-size: 1em;
+        }
+    }
+}
