@@ -9,7 +9,7 @@ body{
     display: flex;
     flex-direction: column;
     flex: auto;
-    height: 1000px;
+    height: auto;
     text-align: center;
 }
 .d1{
@@ -40,9 +40,35 @@ body{
     font-size: 1.7em;
 }
 
+/*mid-section*/
+.mid-section{
+    display: flex;
+    margin-top: 4%;
+}
 /*right-side*/
+.right-side{
+    padding: 2% 5% 5% 5%;
+    text-align: left;
+}
 
+li{
+    padding-bottom: 5%;
+    margin-left: -4%;
+}
 /*left-side*/
+.left-side{
+    border-right: 1px solid black;
+    padding: 2% 5% 5% 5%;
+    text-align: right;
+}
+
+.name{
+    font-size: 1.3em;
+}
+
+.date{
+    font-size: 0.8em;
+}
 
 /*media query to 400*/
 @media (max-width: 400px){
